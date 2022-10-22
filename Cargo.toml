@@ -1,0 +1,12 @@
+[package]
+name = "always_cell"
+version = "0.1.0"
+edition = "2021"
+authors = ["Protryon <max.bruce12@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Protryon/always_cell"
+description = "A OnceCell that implements Deref, panicking if not set yet."
+keywords = [ "once_cell", "cell", "always" ]
+
+[dependencies]
+once_cell = "1.0"
